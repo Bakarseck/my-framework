@@ -1,0 +1,19 @@
+<nav id="nav-container">
+  <div class="nav-wrapper">
+    <div class="logo">
+      <a href="#/home" class="nav-link" data-bind="logo"></a>
+    </div>
+    <div class="hamburger-menu">
+      <div class="bar"></div>
+      <div class="bar"></div>
+      <div class="bar"></div>
+    </div>
+    <!-- <button @mouseover="handleMouseOver" custom-event>Clické</button> -->
+    <ul class="nav-links">
+      <li><a href="#/post" class="nav-link">Posts</a></li>
+      <li><a href="#/chat" class="nav-link">Chat</a></li>
+      <li><a href="#/" class="nav-link">Login</a></li>
+      <toggle-component></toggle-component>
+    </ul>
+  </div>
+</nav>

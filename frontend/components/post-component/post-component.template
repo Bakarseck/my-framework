@@ -1,0 +1,26 @@
+<div id="post-container">
+    <template data-repeat="posts">
+        <div class="tweet-container">
+            <div class="profile-photo">
+                <img data-repeat-bind="userImage" />
+            </div>
+            <div class="tweet-content">
+                <div class="tweet-header">
+                    <span class="fullname"><strong @click="cliked" data-repeat-bind="fullName"></strong></span>
+                    <span class="username" data-reapeat-bind="username"></span>
+                    <span class="timestamp" data-repeat-bind="timestamp"></span>
+                </div>
+                <div class="tweet-text" data-repeat-bind="text"></div>
+                <div class="post-image">
+                    <img data-repeat-bind="postImage" alt="Post Image" />
+                </div>
+                <div class="tweet-actions">
+                    <button class="action">💬</button>
+                    <button class="action">🔁</button>
+                    <button class="action">❤️</button>
+                    <button class="action">⚑</button>
+                </div>
+            </div>
+        </div>
+    </template>
+</div>

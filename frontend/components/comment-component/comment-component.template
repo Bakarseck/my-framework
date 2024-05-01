@@ -1,0 +1,8 @@
+<div class="comments-container">
+    <template id="comment-template" data-repeat="comments">
+        <div class="comment">
+            <div class="comment-author" data-bind="author"></div>
+            <div class="comment-text" data-bind="text"></div>
+        </div>
+    </template>
+</div>

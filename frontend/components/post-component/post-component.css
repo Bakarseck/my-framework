@@ -1,0 +1,89 @@
+#post-container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 90vh;
+    overflow: scroll;
+    box-sizing: border-box;
+}
+
+.tweet-container {
+    display: flex;
+    background-color: white;
+    border: 1px solid #e1e8ed;
+    padding: 10px;
+    margin-top: 20px;
+    border-radius: 10px;
+    width: 50%;
+}
+
+.profile-photo {
+    margin-right: 10px;
+}
+
+.profile-photo img {
+    border-radius: 50%;
+    width: 48px;
+    height: 48px;
+}
+
+.tweet-content {
+    flex-grow: 1;
+}
+
+.tweet-header {
+    color: #555;
+    font-size: 0.9em;
+}
+
+.tweet-header .fullname {
+    margin-right: 5px;
+}
+
+.tweet-header .username {
+    margin-right: 5px;
+    color: #777;
+}
+
+.tweet-header .timestamp {
+    color: #777;
+}
+
+.tweet-text {
+    margin: 5px 0;
+}
+
+.tweet-actions {
+    display: flex;
+    align-items: center;
+}
+
+.tweet-actions .action {
+    background: none;
+    border: none;
+    color: #555;
+    cursor: pointer;
+    font-size: 1.2em;
+    margin-right: 10px;
+}
+
+.tweet-actions .action:hover {
+    color: #000;
+}
+
+.post-image {
+    width: 100%;
+    margin-top: 10px;
+    overflow: hidden;
+    margin-bottom: 10px;
+    
+}
+
+.post-image img {
+    display: block;
+    border-radius: 10px;
+    width: 90%;
+    height: auto;
+    object-fit: cover;
+}
